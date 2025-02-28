@@ -15,17 +15,19 @@ const links = [
 
 const Navigations = (props: Props) => {
   return (
-    <nav className="hidden sm:flex items-center justify-between  space-x-1 md:space-x-10">
-      {links.map((link, index) => (
-        <Link
-          key={index}
-          href={link.href}
-          className="text-lg whitespace-nowrap hover:text-blue-500 duration-100"
-        >
-          {link.label}
-        </Link>
-      ))}
-    </nav>
+    <div className="flex-grow flex justify-center">
+      <nav className="hidden sm:flex items-center justify-between  space-x-5 md:space-x-10">
+        {links.map((link, index) => (
+          <Link
+            key={index}
+            href={link.href}
+            className="text-lg whitespace-nowrap hover:text-blue-500 duration-100"
+          >
+            {link.label}
+          </Link>
+        ))}
+      </nav>
+    </div>
   );
 };
 

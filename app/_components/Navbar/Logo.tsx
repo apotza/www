@@ -6,7 +6,7 @@ type Props = {};
 
 const Logo = (props: Props) => {
   return (
-    <Link href="/" className="flex-grow">
+    <Link href="/" className="">
       <div className="relative flex items-center space-x-2">
         <Image src="/apotzalogo.jpg" alt="Vercel Logo" width={50} height={24} />
         <h1 className="text-2xl font-bold">Apotza</h1>
