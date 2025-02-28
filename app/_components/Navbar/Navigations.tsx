@@ -15,12 +15,12 @@ const links = [
 
 const Navigations = (props: Props) => {
   return (
-    <nav className="flex items-center justify-between space-x-10">
+    <nav className="hidden sm:flex items-center justify-between  space-x-1 md:space-x-10">
       {links.map((link, index) => (
         <Link
           key={index}
           href={link.href}
-          className="text-lg hover:text-blue-500 duration-100"
+          className="text-lg whitespace-nowrap hover:text-blue-500 duration-100"
         >
           {link.label}
         </Link>

@@ -1,13 +1,13 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import Features from "../components/Features";
+import Navbar from "./_components/Navbar";
+import Hero from "./_components/Hero";
+import Features from "./_components/Features";
 
 type Props = {};
 
 const page = (props: Props) => {
   return (
-    <div className="bg-gradient-to-r from-transparent to-blue-800/60">
+    <div className="bg-slate-950">
       <Navbar />
       <Hero />
       <Features />
