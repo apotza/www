@@ -5,7 +5,7 @@ type Props = {};
 
 const Brand_Image = (props: Props) => {
   return (
-    <div className="absolute left-[180px] rounded-3xl">
+    <div className="hidden lg:flex absolute left-[180px] rounded-3xl">
       <div className="w-fit h-fit">
         <Image
           src="/brand/hero-dashboard.avif"

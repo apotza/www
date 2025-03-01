@@ -5,7 +5,7 @@ type Props = {};
 
 const Logins = (props: Props) => {
   return (
-    <div className="hidden lg:flex items-center  rounded-lg">
+    <div className="hidden scale-90 lg:scale-100 md:flex items-center  rounded-lg">
       <div className="flex items-center h-4/5 space-x-2 rounded-lg p-1 cursor-pointer">
         <Link
           href={"/login"}

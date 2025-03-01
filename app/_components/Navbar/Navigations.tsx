@@ -16,7 +16,7 @@ const links = [
 const Navigations = (props: Props) => {
   return (
     <div className="flex-grow flex justify-center">
-      <nav className="hidden sm:flex items-center justify-between  space-x-5 md:space-x-10">
+      <nav className="hidden scale-90 xl:scale-100 sm:flex items-center justify-between  space-x-3 2xl:space-x-10">
         {links.map((link, index) => (
           <Link
             key={index}

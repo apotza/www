@@ -16,7 +16,7 @@ const Hero = (props: Props) => {
           src="https://videos.ctfassets.net/w8fc6tgspyjz/1pNj0ayPe52j8e7ZfiPP1i/899d571e1a3006a78fb87c6ea7ba89d3/CHAT_LP_2mbps_V09.mp4"
         ></video>
       </div> */}
-      <div className="flex w-full md:w-2/3 h-full items-center justify-between space-x-10">
+      <div className="flex w-full px-4 lg:w-4/5 h-full items-center justify-between space-x-10">
         <Text />
         <Brand_Image />
       </div>
