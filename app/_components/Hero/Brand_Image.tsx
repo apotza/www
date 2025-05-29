@@ -1,15 +1,13 @@
-import React from "react";
 import Image from "next/image";
+import React from "react";
 
-type Props = {};
-
-const Brand_Image = (props: Props) => {
+const Brand_Image = () => {
   return (
-    <div className="absolute left-[180px] rounded-3xl">
+    <div className="hidden lg:flex absolute left-[180px] rounded-3xl">
       <div className="w-fit h-fit">
         <Image
           src="/brand/hero-dashboard.avif"
-          alt="Vercel Logo"
+          alt="brand_pic"
           width={1700}
           height={800}
           className=""

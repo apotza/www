@@ -1,8 +1,7 @@
 import React from "react";
 
-type Props = {};
 
-const Features = (props: Props) => {
+const Features = () => {
   return (
     <div className="h-screen">
       <div>Features</div>
