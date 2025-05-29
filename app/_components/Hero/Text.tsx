@@ -1,9 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
 
-type Props = {};
-
-const Text = (props: Props) => {
+const Text = () => {
   return (
     <div className="flex flex-col h-3/5 space-y-5 py-[20px]  whitespace-nowrap  z-10">
       <div className="flex scale-90 sm:scale-100 items-center font-bold bg-green-700 px-4 py-1 rounded-full w-fit shadow-inner shadow-white/50 cursor-progress">

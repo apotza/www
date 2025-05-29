@@ -1,8 +1,6 @@
 import React from "react";
 import Link from "next/link";
 
-type Props = {};
-
 // TODO: Add Nested Links for Hover Navigation
 
 const links = [
@@ -13,7 +11,7 @@ const links = [
   { href: "/contact", label: "Talk to Us" },
 ];
 
-const Navigations = (props: Props) => {
+const Navigations = () => {
   return (
     <div className="flex-grow flex justify-center">
       <nav className="hidden scale-90 xl:scale-100 sm:flex items-center justify-between  space-x-3 2xl:space-x-10">

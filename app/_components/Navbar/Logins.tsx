@@ -1,9 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-type Props = {};
-
-const Logins = (props: Props) => {
+const Logins = () => {
   return (
     <div className="hidden scale-90 lg:scale-100 md:flex items-center  rounded-lg">
       <div className="flex items-center h-4/5 space-x-2 rounded-lg p-1 cursor-pointer">

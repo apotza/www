@@ -1,9 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-type Props = {};
-
-const Nav = (props: Props) => {
+const Nav = () => {
   return (
     <div>
       <Link

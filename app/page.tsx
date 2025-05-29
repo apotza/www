@@ -3,9 +3,7 @@ import Navbar from "./_components/Navbar";
 import Hero from "./_components/Hero";
 import Features from "./_components/Features";
 
-type Props = {};
-
-const page = (props: Props) => {
+const page = () => {
   return (
     <div className="bg-slate-950">
       <Navbar />

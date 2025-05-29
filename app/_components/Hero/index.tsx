@@ -2,9 +2,7 @@ import React from "react";
 import Brand_Image from "./Brand_Image";
 import Text from "./Text";
 
-type Props = {};
-
-const Hero = (props: Props) => {
+const Hero = () => {
   return (
     <div className="relative flex justify-center h-screen  overflow-clip">
       {/* <div className="absolute -z-10 hidden md:flex  h-[120%] w-[120%] -left-[6%] -top-[7%] items-center rounded-3xl rotate-45 overflow-clip">

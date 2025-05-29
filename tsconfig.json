@@ -1,27 +1,49 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "incremental": false,
+    "isolatedModules": true,
+    "lib": ["es2022", "DOM", "DOM.Iterable"],
+    "moduleDetection": "force",
+    "noUncheckedIndexedAccess": true,
+    "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
+    "target": "ES2022",
     "plugins": [
       {
         "name": "next"
       }
     ],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowJs": true,
+    "noEmit": true,
     "paths": {
-      "@/*": ["./*"]
+      "@/components/*": ["./components/*"],
+      "@/packages/*": ["./packages/*"],
+      "@/api/*": ["./api/*"],
+      "@/actions/*": ["./actions/*"],
+      "@/utils/*": ["./utils/*"],
+      "@/hooks/*": ["./hooks/*"],
+      "@/common/*": ["./common/*"],
+      "@/lib/*": ["./lib/*"],
+      "@/types/*": ["./types/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "next-env.d.ts",
+    "next.config.js",
+    ".next/types/**/*.ts",
+    "components/CodeBlock/Editor/IDEditor/useEnableComplete.js"
+  ],
   "exclude": ["node_modules"]
 }
